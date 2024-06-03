@@ -19,12 +19,12 @@ module.exports = {
   loading: { color: '#3B8070' },
 
   /*
-  ** Global css
+  ** Global CSS
   */
   css: [
     '@/node_modules/bootstrap/dist/css/bootstrap.css',
-    '@/static/css/nicepage.css',
-    '@/static/css/main.css'
+    '@/static/css/main.css',
+    '@/static/css/nicepage.css'
   ],
   /*
   ** Build configuration
@@ -46,4 +46,3 @@ module.exports = {
     }
   }
 }
-

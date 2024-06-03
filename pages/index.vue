@@ -14,10 +14,17 @@
       </div>
     </div>
   </section>
+  <ClubsList/>
 </template>
 
 <script>
+  import ClubsList from "@/components/clubs_list.vue"
 
+  export default {
+    components: {
+      ClubsList
+    }
+}
 </script>
 
 <style>
