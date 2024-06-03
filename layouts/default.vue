@@ -1,16 +1,15 @@
 <template>
   <div>
     <div class="container">
-      <Navbar />
+      <Navbar/>
     </div>
     <main>
       <div>
-        <nuxt />
-      </div>          
+        <nuxt-page/>
+      </div>
     </main>
 
   </div>
-
 </template>
 
 <script>
