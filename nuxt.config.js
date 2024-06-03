@@ -18,6 +18,12 @@ module.exports = {
   */
   loading: { color: '#3B8070' },
   /*
+  ** Global CSS
+  */
+  css: [
+    '@/node_modules/boostrap/dist/css/bootstrap.css'
+  ],
+  /*
   ** Build configuration
   */
   build: {
