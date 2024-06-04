@@ -16,6 +16,7 @@
   </section>
   <ClubsList/>
   <Advantage/>
+  <Events/>
   <Footer/>
 </template>
 
@@ -23,11 +24,13 @@
   import ClubsList from "@/components/clubs_list.vue"
   import Footer from "@/components/footer.vue"
   import Advantage from '@/components/advantages_section.vue'
+  import Events from '@/components/events.vue'
   export default {
     components: {
       ClubsList,
       Footer,
-      Advantage
+      Advantage,
+      Events
     }
 }
 </script>
