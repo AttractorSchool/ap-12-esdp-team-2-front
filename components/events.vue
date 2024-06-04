@@ -12,7 +12,7 @@
             <div class="m-5 u-align-center u-border-15 u-border-no-left u-border-no-right u-border-no-top u-border-palette-3-base u-container-align-center-lg u-container-align-center-md u-container-align-center-sm u-container-align-center-xs u-container-style u-custom-border u-list-item u-radius-50 u-repeater-item u-shape-round u-white u-list-item-1" style="height: 500px">
               <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
                 <img class="u-expanded-width u-image u-image-default u-image-1" src="@/static/images/event.jpg" alt="" data-image-width="700" data-image-height="575">
-                <h5 class="u-align-center u-text u-text-3"> {{ event }} </h5>
+                <h5 class="u-align-center u-text u-text-3">Мероприятие {{ event }} </h5>
                 <p class="u-align-center u-custom-item u-text u-text-4">
                   <span class="u-icon"></span>Об ивенте
                 </p>
