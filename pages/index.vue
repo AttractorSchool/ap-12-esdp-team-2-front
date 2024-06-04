@@ -17,6 +17,7 @@
   <ClubsList/>
   <Advantage/>
   <Events/>
+  <FindAlly/>
   <Footer/>
 </template>
 
@@ -25,12 +26,14 @@
   import Footer from "@/components/footer.vue"
   import Advantage from '@/components/advantages_section.vue'
   import Events from '@/components/events.vue'
+  import FindAlly from '@/components/find_ally.vue'
   export default {
     components: {
       ClubsList,
       Footer,
       Advantage,
-      Events
+      Events,
+      FindAlly
     }
 }
 </script>
