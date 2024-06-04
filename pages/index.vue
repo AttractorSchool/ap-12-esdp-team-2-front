@@ -15,14 +15,16 @@
     </div>
   </section>
   <ClubsList/>
+  <Footer/>
 </template>
 
 <script>
   import ClubsList from "@/components/clubs_list.vue"
-
+  import Footer from "@/components/footer.vue"
   export default {
     components: {
-      ClubsList
+      ClubsList,
+      Footer
     }
 }
 </script>
