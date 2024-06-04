@@ -24,7 +24,7 @@
           </div>
           <div class="u-effect-fade u-gallery-item">
             <div class="u-back-slide">
-              <img class="u-back-image u-expanded" src="@/static/images/advantages3.png">
+              <img class="u-back-image u-expanded" src="../static/images/advantages3.png">
             </div>
           </div>
         </div>
