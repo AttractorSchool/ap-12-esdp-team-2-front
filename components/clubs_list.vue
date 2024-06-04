@@ -1,6 +1,9 @@
 <template>
 
   <section class="u-align-center u-clearfix u-container-align-center u-grey-10 u-section-2">
+    <h2 class="u-align-center u-text u-text-default u-text-1 popular-club">
+      Популярные клубы
+    </h2>
     <div class="u-clearfix u-sheet u-valign-middle u-sheet-1 m-5">
       <div class="u-expanded-width u-list u-list-1">
         <div class="u-repeater u-repeater-1">
@@ -10,7 +13,7 @@
               <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
                 <img class="u-expanded-width u-image u-image-default u-image-1" src="@/static/images/run3.jpg" alt="" data-image-width="700" data-image-height="575">
                 <h5 class="u-align-center u-text u-text-3"> {{ club }} </h5>
-                <p class="u-align-center u-custom-item u-text u-text-4"><span class="u-icon"></span>Running
+                <p class="u-align-center u-custom-item u-text u-text-4"><span class="u-icon"></span>О клубе
                 </p>
                 <a href="#" class="u-align-center u-file-icon u-icon u-text-palette-3-base u-icon-2"><img src="@/static/images/481127-6e595bca.png" alt=""></a>
               </div>
@@ -29,14 +32,14 @@
   export default {
     data: () => ({
       clubs: [
-          1, 2, 3, 4, 5
+          1, 2, 3, 4, 5, 6, 7, 8
       ]
     })
   }
 </script>
 
 <style>
-.link_icon {
+.link-icon {
   height: 40px;
   width: 50px;
   margin-left: 80px;
@@ -44,5 +47,8 @@
 .my-card {
   width: 250px;
   height: 500px;
+}
+.popular-club {
+  font-family: Dyuthi, serif;
 }
 </style>
