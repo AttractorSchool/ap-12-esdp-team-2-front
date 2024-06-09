@@ -1,5 +1,5 @@
 <template>
-  <div style="margin-bottom: 600px">
+  <div>
     <Banner/>
     <UnderBanner/>
     <CommunitySupport/>
