@@ -13,7 +13,6 @@
             </ul>								
           </div>
         </div>
-        <!-- Остальные блоки кода -->
         <div class="col-lg-4  col-md-6 col-sm-6">
           <div class="single-footer-widget">
             <h4>Newsletter</h4>

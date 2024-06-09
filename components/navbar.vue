@@ -12,7 +12,6 @@
             </ul>
           </div>
           <div class="col-lg-6 col-sm-6 col-4 header-top-right no-padding">
-            <!-- Дополнительный контент, если необходим -->
           </div>
         </div>
       </div>
@@ -46,5 +45,11 @@
   </header>
 </template>
 
-<script setup lang="ts">
+<script>
 </script>
+
+<style scoped>
+#header {
+  background-color: rgba(4, 9, 30, 0.9);
+}
+</style>
