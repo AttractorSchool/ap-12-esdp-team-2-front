@@ -4,6 +4,7 @@
     <UnderBanner/>
     <CommunitySupport/>
     <FindPeople/>
+    <PopularCommunity/>
   </div>
 
 
@@ -14,12 +15,14 @@
   import UnderBanner from "@/components/underBanner.vue";
   import CommunitySupport from "@/components/communitySupport.vue";
   import FindPeople from "@/components/findPeople.vue";
+  import PopularCommunity from "@/components/popularCommunity.vue";
   export default {
     components: {
       Banner,
       UnderBanner,
       CommunitySupport,
-      FindPeople
+      FindPeople,
+      PopularCommunity,
     }
   }
 </script>
