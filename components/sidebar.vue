@@ -69,7 +69,7 @@ const toggleCollapse = () => {
     width: 100vw;
     height: 100vh;
     max-width: 228px;
-    background-color: #04091e;
+    background-color: rgba(4, 9, 30, 0.8); 
     z-index: 999;
     transition: 0.4s;
 }
