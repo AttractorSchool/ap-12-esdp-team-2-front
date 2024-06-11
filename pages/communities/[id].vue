@@ -3,12 +3,15 @@
 
   <div>
     <miniBanner/>
-    <div>{{$route.params.item.id}}</div>
+    <div>{{id}}</div>
 
   </div>
 
 
 </template>
+<script setup>
+  const { id } = useRoute().params
+</script>
 
 <script>
   import miniBanner from '@/components/miniBanner.vue';
