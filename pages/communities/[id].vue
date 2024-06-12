@@ -3,6 +3,7 @@
 
   <div>
     <miniBanner/>
+    <communityDetail/>
     <div>{{id}}</div>
 
   </div>
@@ -15,11 +16,13 @@
 
 <script>
   import miniBanner from '@/components/miniBanner.vue';
+  import communityDetail from '@/components/communityDetail.vue';
 
 
   export default {
     components: {
       miniBanner,
+      communityDetail
 
     }
   }
