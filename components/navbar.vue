@@ -11,7 +11,7 @@
               <li><a href="#"><i class="fa fa-behance"></i></a></li>
             </ul>
           </div>
-          <div class="col-lg-6 col-sm-6 col-4 header-top-right no-padding">
+          <div class="col-lg-6 col-sm-6 col-4 header-top-right no-padding">           
           </div>
         </div>
       </div>
@@ -38,6 +38,7 @@
               </ul>
             </li>
             <li><nuxt-link to="/contact">Контакты</nuxt-link></li>
+            <li> <nuxt-link to="/fire"><img class="fire-icon" src="/_nuxt/static/img/fire.webp" alt=" "></nuxt-link></li>
           </ul>
         </nav>
       </div>
@@ -46,10 +47,20 @@
 </template>
 
 <script>
+export default {
+}
 </script>
 
 <style scoped>
 #header {
   background-color: rgba(4, 9, 30, 0.9);
+}
+
+.fire-icon {
+  width: 40px; 
+  height: auto;
+  position: absolute;
+  bottom: 1px; 
+  left: 10px; 
 }
 </style>
