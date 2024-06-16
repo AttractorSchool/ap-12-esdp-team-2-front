@@ -14,7 +14,7 @@
 
 <script>
   import miniBanner from '@/components/miniBanner.vue';
-  import communityList from '@/components/communityList.vue';
+  import communityList from '~/components/communityPages/communityList.vue';
 
   export default {
     components: {

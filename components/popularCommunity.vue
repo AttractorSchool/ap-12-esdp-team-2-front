@@ -91,7 +91,7 @@ export default {
       }
     },
     startAutoSlide() {
-      this.intervalId = setInterval(this.nextSlide, 4000);
+      this.intervalId = setInterval(this.nextSlide, 10000);
     },
     stopAutoSlide() {
       if (this.intervalId) {

@@ -22,7 +22,7 @@
               <div class="overlay overlay-bg"></div>
                 <a href="#" target="_blank">
                   <div class="thumb">
-                   <img class="content-image img-fluid d-block mx-auto" src="@/static/img/services/atributika.jpg" alt=""  style="height: 250px;">
+                   <img class="content-image img-fluid d-block mx-auto" src="../static/img/services/atributika.jpg" alt="" style="height: 250px;">
                   </div>
                   <div class="content-details">
                     <h4 class="content-title mx-auto text-uppercase">Клубная атрибутика</h4>
@@ -39,7 +39,7 @@
               <div class="overlay overlay-bg"></div>
                 <a href="#" target="_blank">
                   <div class="thumb">
-                   <img class="content-image img-fluid d-block mx-auto" src="@/static/img/services/consult.jpg" alt="" style="height: 250px;">
+                   <img class="content-image img-fluid d-block mx-auto" src="../static/img/services/consult.jpg" alt="" style="height: 250px;">
                   </div>
                   <div class="content-details">
                     <h4 class="content-title mx-auto text-uppercase">Консультация</h4>
@@ -56,7 +56,7 @@
               <div class="overlay overlay-bg"></div>
                 <a href="#" target="_blank">
                   <div class="thumb">
-                   <img class="content-image img-fluid d-block mx-auto" src="@/static/img/services/audience.jpg" alt=""  style="height: 250px;">
+                   <img class="content-image img-fluid d-block mx-auto" src="../static/img/services/audience.jpg" alt="" style="height: 250px;">
                   </div>
                   <div class="content-details">
                     <h4 class="content-title mx-auto text-uppercase">Организация мероприятии</h4>
