@@ -5,6 +5,7 @@
     <miniBanner/>
     <communityDetail/>
     <div>{{id}}</div>
+    <communityAbs/>
 
   </div>
 
@@ -16,14 +17,15 @@
 
 <script>
   import miniBanner from '@/components/miniBanner.vue';
-  import communityDetail from '@/components/communityDetail.vue';
+  import communityDetail from '~/components/communityPages/communityDetail.vue';
+  import communityAbs from '~/components/communityPages/communityAbs.vue';
 
 
   export default {
     components: {
       miniBanner,
-      communityDetail
-
+      communityDetail,
+      communityAbs,
     }
   }
 </script>

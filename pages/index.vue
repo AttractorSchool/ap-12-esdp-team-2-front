@@ -13,7 +13,7 @@
 <script>
   import Banner from '@/components/banner.vue';
   import UnderBanner from "@/components/underBanner.vue";
-  import CommunitySupport from "@/components/communitySupport.vue";
+  import CommunitySupport from "~/components/communitySupport.vue";
   import FindPeople from "@/components/findPeople.vue";
   import PopularCommunity from "@/components/popularCommunity.vue";
   export default {
