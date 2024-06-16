@@ -37,7 +37,7 @@
       icon: '',
       text: 'Page 3',
     }, {
-      href: '#',
+      href: '/ads',
       icon: 'bell',
       text: 'Объявление',
     }, {
