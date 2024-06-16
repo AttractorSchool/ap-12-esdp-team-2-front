@@ -28,7 +28,7 @@
             <li><nuxt-link to="/">Главная</nuxt-link></li>
             <li><nuxt-link to="/about">О нас</nuxt-link></li>
             <li><nuxt-link to="/communities">Сообщества</nuxt-link></li>
-            <li><nuxt-link to="/events">События</nuxt-link></li>
+            <li><nuxt-link to="/events">Календарь</nuxt-link></li>
             <li><nuxt-link to="/gallery">Новости</nuxt-link></li>
             <li class="menu-has-children">
               <nuxt-link to="#">Услуги</nuxt-link>
