@@ -19,11 +19,11 @@
               <img class="img-fluid" src="../../static/img/e1.jpg" alt="">
             </div>
             <div class="detials col-12 col-md-6">
-              <a href="#" @click.prevent="goTo(ad)">
+              <NuxtLink :to="`/ads/${ad}`">
                 <h4>
                   Объявление {{ ad }}
                 </h4>
-              </a>
+              </NuxtLink>
               <a href="#">
                 Клуб
               </a>
