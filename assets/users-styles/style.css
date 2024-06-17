@@ -55,3 +55,43 @@
 .arrow-orange {
     color: #fff;
 }
+
+
+/* USER-DETAIL */
+
+.user-profile-area {
+    column-gap: 10px;
+}
+
+.user-card-detail {
+    border: 1px solid #eee;
+}
+
+.user-detail-img {
+    border-radius: 50%;
+    border: 1px solid #eee;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.username-text {
+    display: block;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+
+.user-additional-info {
+    border: 1px solid #eee;
+    padding: 10px;
+}
+
+.info-title {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+    max-height: 200px;
+    word-wrap: break-word;
+    overflow: auto;
+}
