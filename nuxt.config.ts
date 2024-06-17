@@ -55,7 +55,7 @@ export default defineNuxtConfig({
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
-
+  modules: ['@nuxt/ui'],
   /*
   ** Build configuration
   */
@@ -73,5 +73,7 @@ export default defineNuxtConfig({
         })
       }
     }
-  }
+  },
+
+  modules: ["@nuxt/ui"]
 })

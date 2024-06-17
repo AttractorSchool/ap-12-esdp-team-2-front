@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-6 text-center mb-5">
-                    <h2 class="heading-section">ЦЕНТР СОБЫТИЙ</h2>
+                    <img src="@/static/img/favicon-32x32.png" alt="logo" title="" style="width: 100px;" />
                 </div>
             </div>
             <div class="row justify-content-center">
@@ -13,7 +13,7 @@
                             <div class="text w-100">
                                 <h2>Добро пожаловать</h2>
                                 <p>Уже есть аккаунт?</p>
-                                <a href="#" class="btn btn-white btn-outline-white">Войти</a>
+                                <a href="/auth/login" class="btn btn-white btn-outline-white">Войти</a>
                             </div>
                         </div>
                         <div class="login-wrap p-4 p-lg-5">

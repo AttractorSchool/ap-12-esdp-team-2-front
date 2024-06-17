@@ -1,0 +1,57 @@
+.users-banner {
+    background: url(@/static/img/members.jpg) right;
+    background-size: cover;
+}
+
+.user-list {
+    row-gap: 30px;
+}
+
+.user-card {
+    border: 1px solid #eee;
+    border-left: 2px solid #f7631b;
+}
+
+.user-img {
+    width: 100%;
+}
+
+.user-about {
+    height: 150px;
+    word-wrap: break-word;
+    overflow: auto;
+}
+
+.user-card-header {
+    background: #f7631b;
+}
+
+.user-link {
+    text-align: center;
+    color: white;
+}
+
+.search-input {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.search-input:focus {
+    border: 1px solid #f7631b;
+    outline: none;
+}
+
+.search-button {
+    border: 1px solid black;
+    padding: 5px 15px;
+    background: #f7631b;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background: #ff8143;
+}
+
+.arrow-orange {
+    color: #fff;
+}
