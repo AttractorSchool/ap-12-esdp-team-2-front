@@ -46,6 +46,7 @@ export default defineNuxtConfig({
         {tagPosition: 'bodyClose', src: '/_nuxt/static/js/jquery.nice-select.min.js'},
         {tagPosition: 'bodyClose', src: '/_nuxt/static/js/owl.carousel.min.js'},
         {tagPosition: 'bodyClose', src: '/_nuxt/static/js/mail-script.js'},
+        {tagPosition: 'bodyClose', src: '/_nuxt/static/js/mail-script.js'},
         {tagPosition: 'bodyClose', src: '/_nuxt/static/js/main.js'},
       ]
     },
@@ -73,5 +74,10 @@ export default defineNuxtConfig({
         })
       }
     }
-  }
+  },
+
+  plugins: [
+    { src: '~/plugins/popper.js', mode: 'client' }
+  ]
+
 })
